@@ -2,6 +2,7 @@
 :root{
     --main-color: #d3818e;
     --secondary-color: #b96372;
+    --text-color: #170f3e;
     --heading-font:"Playfair Display",serif;
     --default-font:"Poppins", sans-serif;;
 }
@@ -78,7 +79,7 @@ nav li.active a{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: #272142;
+    color: var(--text-color) ;
 }
 
 .hero h2 {
@@ -92,7 +93,7 @@ nav li.active a{
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 160px 10px;
 }
 
 .content h1 {
@@ -113,7 +114,7 @@ nav li.active a{
 }
 .content a{
     text-decoration: none;
-    color:#272142;
+    color:var(--text-color)
 }
 .btn-branding{
     border: 3px solid #b96372;
